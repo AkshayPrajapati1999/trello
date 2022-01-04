@@ -48,7 +48,10 @@ const Login = () => {
       cache: 'no-cache',
       credentials: 'same-origin',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': "https://trello-appunik-demo-z3hn3.ondigitalocean.app",
+        'Access-Control-Allow-Headers': "*",
+        'Access-Control-Allow-Credentials': "true"
       },
       redirect: 'follow',
       referrerPolicy: 'no-referrer',
