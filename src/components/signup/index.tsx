@@ -87,10 +87,7 @@ const SignUp = (): JSX.Element => {
       cache: 'no-cache',
       credentials: 'same-origin',
       headers: {
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': "https://trello-appunik-demo-z3hn3.ondigitalocean.app",
-        'Access-Control-Allow-Headers': "*",
-        'Access-Control-Allow-Credentials': "true"
+        'Content-Type': 'application/json'
       },
       redirect: 'follow',
       referrerPolicy: 'no-referrer',
